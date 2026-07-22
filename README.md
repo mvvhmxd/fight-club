@@ -1,9 +1,9 @@
 <div align="center">
-  <h1>⚔️ Fight Club</h1>
+  <h1>Fight Club</h1>
   <p><strong>You and your friends want to study together. You make a group chat.<br>Everyone's hyped for two weeks. Then life happens, the chat goes quiet,<br>and six months later nobody finished anything.</strong></p>
   <p>Fight Club replaces the group chat.</p>
   <p>
-    <a href="https://fightclub.manus.space">Live Demo</a> ·
+    <a href="https://fightclub.manus.space"><strong>Live Demo → fightclub.manus.space</strong></a> ·
     <a href="docs/DEPLOYMENT.md">Deploy Guide</a> ·
     <a href="docs/ARCHITECTURE.md">Architecture</a> ·
     <a href="docs/CONTRIBUTING.md">Contributing</a>
@@ -20,14 +20,17 @@
 **Landing Page**
 ![Landing Page](docs/screenshots/01-landing.webp)
 
-**Dashboard** — streak widget, stat cards, activity heatmap, weekly tasks
-![Dashboard](docs/screenshots/04-dashboard-ui.png)
+**Dashboard** — streak widget, stat cards, weekly tasks, weekly check-in
+![Dashboard](docs/screenshots/02-dashboard.png)
 
-**Curriculum Browser** — ordered stages, topic lock/unlock, resource list
-![Curriculum](docs/screenshots/05-curriculum-ui.png)
+**Curriculum** — ordered stages with topic progress tracking
+![Curriculum](docs/screenshots/03-curriculum.png)
 
-**Admin Curriculum Editor** — drag-to-reorder stages and topics, inline rename, resource management
-![Admin Curriculum Editor](docs/screenshots/06-admin-curriculum-ui.png)
+**Progress** — activity heatmap, streak stats, submission history
+![Progress](docs/screenshots/04-progress.png)
+
+**Leaderboard** — weekly XP rankings
+![Leaderboard](docs/screenshots/05-leaderboard.png)
 
 ---
 
@@ -97,7 +100,7 @@ The schema includes a `tenant_id` column on every table, making the architecture
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/fight-club
+git clone https://github.com/mvvhmxd/fight-club
 cd fight-club
 
 # Install dependencies

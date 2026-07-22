@@ -31,7 +31,7 @@ export default function LandingPage() {
         </div>
         <div className="flex items-center gap-3">
           <a
-            href="https://github.com/mmbalash/fight-club"
+            href="https://github.com/mvvhmxd/fight-club"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs text-muted-foreground hover:text-foreground transition-colors hidden sm:block"
@@ -61,7 +61,7 @@ export default function LandingPage() {
 
         {/* Sub-headline */}
         <p className="text-base md:text-lg text-muted-foreground mb-4 max-w-2xl">
-          You and your friends want to learn AI engineering together. You make a group chat.
+          You and your friends want to study together. You make a group chat.
           Everyone's hyped for two weeks. Then life happens, the chat goes quiet, and six months
           later nobody finished anything.
         </p>
@@ -228,7 +228,7 @@ export default function LandingPage() {
               Sign in to get started
             </Button>
             <Button size="lg" variant="outline" className="px-8" asChild>
-              <a href="https://github.com/mmbalash/fight-club" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/mvvhmxd/fight-club" target="_blank" rel="noopener noreferrer">
                 View on GitHub
               </a>
             </Button>
@@ -245,8 +245,8 @@ export default function LandingPage() {
           <span>Fight Club — Open source peer study group tool</span>
         </div>
         <div className="flex items-center gap-4">
-          <a href="https://github.com/mmbalash/fight-club" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">GitHub</a>
-          <a href="https://github.com/mmbalash/fight-club/blob/main/docs/DEPLOYMENT.md" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Deploy Guide</a>
+          <a href="https://github.com/mvvhmxd/fight-club" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">GitHub</a>
+          <a href="https://github.com/mvvhmxd/fight-club/blob/main/docs/DEPLOYMENT.md" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Deploy Guide</a>
         </div>
       </footer>
     </div>
