@@ -15,6 +15,22 @@
 
 ---
 
+## Screenshots
+
+**Landing Page**
+![Landing Page](docs/screenshots/01-landing.webp)
+
+**Dashboard** — streak widget, stat cards, activity heatmap, weekly tasks
+![Dashboard](docs/screenshots/04-dashboard-ui.png)
+
+**Curriculum Browser** — ordered stages, topic lock/unlock, resource list
+![Curriculum](docs/screenshots/05-curriculum-ui.png)
+
+**Admin Curriculum Editor** — drag-to-reorder stages and topics, inline rename, resource management
+![Admin Curriculum Editor](docs/screenshots/06-admin-curriculum-ui.png)
+
+---
+
 ## The Problem
 
 Informal study groups fail for a predictable set of reasons. There is no shared definition of what "done" looks like for a given week. Progress is invisible — nobody knows if their friends are ahead or behind. There is no social cost to going quiet. And there is no structure for giving or receiving feedback on actual work.
